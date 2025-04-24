@@ -1,35 +1,3 @@
-
-/* .main_conteiner{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    gap: 20px;
-}
-
-.texto{
-    flex-wrap: wrap;
-}  
-
-
-.img{   
-    width: 180px;  
-    height: 180px;  
-    border-radius: 60%;
-}
-
-.descricao{
-    display: flex;
-    align-items: center;
-    gap: 30px;
-}
-
-.info{
-
-} */
-
-/* src/components/Profile.module.css */
-
 .container {
     max-width: 600px;
     margin: 2rem auto;
@@ -78,25 +46,7 @@ li {
     padding: 0.4rem;
     border-radius: 5px;
   }
-  
-
-/* .apresentacao{
-    align-items: center;
-    padding: 80px;
-    display: grid;
-    grid-template-columns: 500px 300px;
-    grid-template-rows: auto;
-    gap: 90px;
-    justify-content: center;
-} */
-/* 
-.descricao{
-    display: flex;
-    flex-direction: column;
-}
- */
-
 
 footer{
-    margin-top: 640px;
+    margin-top: 180px;
 }
