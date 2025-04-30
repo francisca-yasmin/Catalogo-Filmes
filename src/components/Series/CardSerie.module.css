@@ -1,39 +1,40 @@
 .conteiner{
-    position: relative;
-    width: 450px;
-    margin: 30px;
-    overflow: hidden;
-    border-radius: 5px;
+    min-height: 300px;  /* ajuste conforme o conteúdo total */
+    width: 250px;
+    cursor: pointer;
     transition: transform 0.3s ease;
-    background-color: #8DA9C4;
-}
-
-.conteiner p{
-    font-family: 'Poppins';
-    font-size: 14px;
-    padding: 10px;
-    text-justify: justify;
-    color: #FFF;
-}
-
-.conteiner h3{
-    font-family: 'Poppins';
-    font-size: 16px;
-    padding: 10px;
-    justify-content: center;
-    display: flex;
-    color: #FFFF;
-}
-
-figure{
-    display: flex;
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .conteiner img{
-    width: 250px;
-    height: 200;
-    margin-left: 100px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+/* faz o efeito de quando passar o mouse a imagem do filme dá um leve zoom */
+.conteiner:hover img{
+    transform: scale(1.05);
+}
+
+.conteiner h3{
+    display: -webkit-box; 
+    -webkit-line-clamp: 2;  /* máximo de 2 linhas */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Poppins';
+    line-height: 1.2;
+    padding: 5px;
+}
+
+figure{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 cards por linha */
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
 }

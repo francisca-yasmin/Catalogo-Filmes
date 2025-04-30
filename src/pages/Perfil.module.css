@@ -1,52 +1,55 @@
-.container {
+.container{
     max-width: 600px;
     margin: 2rem auto;
     padding: 2rem;
     background-color: #1e1e2f;
     color: #f0f0f0;
     border-radius: 10px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5); /* sombreado da caixa de perfil */
     font-family: 'Segoe UI', sans-serif;
-  }
+}
   
-.header {
+.header{
     display: flex;
     align-items: center;
     gap: 1rem;
     margin-bottom: 2rem;
-  }
+}
   
-.avatar {
+/* estilização da foto do personagem/icon */
+.avatar{
     width: 80px;
     height: 80px;
     border-radius: 50%;
     border: 2px solid #f06292;
-  }
+}
   
 .section li{
     color: #FFFF;
 }
   
-.section {
+/* seção com os filmes */
+.section{
     margin-bottom: 1.5rem;
-  }
+}
   
-.section h3 {
+.section h3{
     margin-bottom: 0.5rem;
     color: #f06292;
-  }
+}
   
-ul {
+ul{
     list-style: none;
     padding-left: 0;
-  }
+}
   
-li {
+li{
     margin-bottom: 0.3rem;
     padding: 0.4rem;
     border-radius: 5px;
-  }
+}
 
+/* deixa o footer lá embaixo na tela de perfil */
 footer{
     margin-top: 180px;
 }

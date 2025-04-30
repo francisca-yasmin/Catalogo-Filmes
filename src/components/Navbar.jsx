@@ -7,21 +7,21 @@ export function Navbar(){
         <nav className={estilos.conteiner}>
             <ul className={estilos.ul}>
 
-                <Link to='/'>
+                <Link className= {estilos.link} to='/'>
                     <li className={estilos.li}> 
                     <span class="material-symbols-outlined">home</span>
                         Home 
                     </li>
                 </Link>
 
-                <Link to='series'>
+                <Link className= {estilos.link} to='series'>
                     <li className={estilos.li}>
                     <span class="material-symbols-outlined">theaters</span> 
                         Series 
                     </li>
                 </Link>
 
-                <Link to='perfil'>
+                <Link className= {estilos.link} to='perfil'>
                     <li className={estilos.li}>
                     <span class="material-symbols-outlined">person</span> 
                         Perfil 

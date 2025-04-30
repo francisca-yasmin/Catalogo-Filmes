@@ -3,11 +3,12 @@ import estilos from  './Footer.module.css';
 export function Footer(){
     return(
         <>
-            <footer>
-                <p> Filmes da Chica </p>
+            <footer class={estilos.footer}>
+                <div>
+                    <span>© 2025 Todos os direitos reservados.</span>
+                </div>
             </footer>
 
-        
         </>
     )
 }

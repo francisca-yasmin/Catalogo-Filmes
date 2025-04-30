@@ -1,7 +1,11 @@
 footer{
-    background-color: #0B2545
+    background-color: #658ec0; /* cor de fundo do footer */
 }
 
-footer p{
-    color: white;
+/* configurações da escrita do footer */
+span{
+    font-family: 'Poppins';
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
 }

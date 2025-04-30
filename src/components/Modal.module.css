@@ -11,6 +11,7 @@
     z-index: 1000; /*profundidade*/
 }
 
+/* container do modal -> exibe todas as infos*/
 .modalConteiner{
     background-color: rgb(246, 255, 248);
     padding: 20px;
@@ -23,7 +24,6 @@
     flex-direction: column;
     align-items: stretch;
     position: relative;
-    /* height: 50%; */
 }
 
 .ModalHeader{
@@ -56,19 +56,35 @@
 
 .imgDetails li{
     font-family: 'Poppins';
-    /* font-size: 14px; */
     margin: 5px 0;
 }
 
-
-button{
-    background-color: rgb(70,70,70);
-    border-radius: 50px; 
-    color: aliceblue;
-    border: none;
-    cursor: pointer;
-    position: absolute;
-    top: 10px; /* Distância do topo */
-    right: 10px; /* Distância da direita */
-    padding: 3px;
+.imgDetails ul{
+    display: flex;
+    justify-content: center;
 }
+
+.imgDetails p{
+    font-family: 'Poppins';
+    font-size: 15px;
+    text-align: justify;
+}
+
+button {
+    width: 30px;
+    height: 30px;
+    position: absolute; /* posiciona livremente */
+    top: 15px;  /* distância do topo */
+    right: 15px;  /* distância da direita */
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;  /* profundidade */
+  }
+  
+

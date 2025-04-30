@@ -2,12 +2,13 @@ import estilos from './Header.module.css';
 
 // estrutura basica para os componentes
 export function Header(){
+
     return (
         <>
-        <header className={estilos.conteiner}>
-            <h1 className={estilos.titulo}> Filmes da Chica</h1>
-        </header>
-        
+            <header className={estilos.conteiner}>
+                {/* titulo da pagina -> presente em todas as telas */}
+                <h1 className={estilos.titulo}> ChicaFlix </h1>
+            </header>  
         </>
     )
 }

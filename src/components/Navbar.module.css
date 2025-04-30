@@ -1,4 +1,4 @@
-.conteiner{
+.conteiner{ /* conteiner da navbar */
     display: flex;
     justify-content: center;
     background-color: #FFFF;
@@ -8,7 +8,6 @@
 }
 
 ul{
-    list-style: none;
     margin-right: 20px;
     padding: 0;
     display: flex;
@@ -29,3 +28,9 @@ span{
     display: flex;
     gap: 10px;
 }
+
+/* tirar a decoração do link de navegação */
+.link{
+    text-decoration: none;
+}
+

@@ -36,6 +36,7 @@ export function Lista(){
 
     return(
         <div>
+            
             <figure>
                 {movies.map(movie =>(
                     <Card key={movie.id}

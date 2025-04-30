@@ -1,21 +1,26 @@
 .conteiner{
+    height: 100vh; /* altura da tela inteira */
+    background-image: url('../assets/banner.svg'); /* ajuste o caminho se necessário */
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* efeito de fixação no fundo */
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #0B2545;
-    height: 80px;
-}
-
-.titulo{
-    font-family: "Poppins", sans-serif;
-    font-size: 36px;
+    position: relative;
     color: white;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
 }
-
-p{
-    font-family: 'Poppins';
-    display: flex;
-    justify-content: center;
-    display: flex; 
+  
+.titulo{
+    position: absolute;
+    top: 40px;
+    left: 20%;
+    transform: translateX(-50%); /* move oem 50% da propria largura */
+    font-size: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
 }
-
+  
